@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+reports/
+predictions.csv
+.DS_Store
+# Full research dataset is kept out of the repository (see data/README.md)
+data/whole_Cinchona_Combine_Data_wih_Reference.xlsx

@@ -1,0 +1,62 @@
+{
+  "trained_on": "whole_Cinchona_Combine_Data_wih_Reference.xlsx",
+  "trained_at": "2026-09-17",
+  "n_samples": 268,
+  "n_scans": 4078,
+  "campaigns": [
+    "A_2022-23",
+    "B_2022-23",
+    "C_2024-09"
+  ],
+  "intended_use": "Qualitative screening (Low / Medium / High). Does NOT replace HPLC quantification.",
+  "cv_10fold": {
+    "R2": 0.5847260619123706,
+    "RMSECV": 0.9989633003134472,
+    "RPD": 1.5517889743320685,
+    "classification": {
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "confusion_matrix(rows=true)": [
+        [
+          41,
+          21,
+          1
+        ],
+        [
+          5,
+          119,
+          15
+        ],
+        [
+          2,
+          26,
+          38
+        ]
+      ],
+      "accuracy": 0.7388059701492538,
+      "balanced_accuracy": 0.6942221114882985,
+      "recall": {
+        "Low": 0.6507936507936508,
+        "Medium": 0.8561151079136691,
+        "High": 0.5757575757575758
+      },
+      "gross_error_rate(Low<->High)": 0.011194029850746268,
+      "accuracy_non_borderline": 0.8121212121212121,
+      "borderline_fraction": 0.3843283582089552
+    }
+  },
+  "sklearn_version": "1.8.0",
+  "bands": {
+    "low_below": 3.5,
+    "high_above": 5.5,
+    "borderline_margin": 0.5
+  },
+  "wavelength_range_nm": [
+    892.434028076387,
+    1709.86402165095
+  ],
+  "n_wavelengths": 256
+}
