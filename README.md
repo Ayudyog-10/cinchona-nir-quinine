@@ -1,4 +1,5 @@
 # Cinchona NIR Quinine Screening (METASPEQ)
+https://cinchona-nir-quinine-bpvtgnhvpqepcjywblxhvk.streamlit.app/
 
 Near-infrared (NIR, 892–1710 nm) screening of quinine in *Cinchona* bark from Mangpoo, Darjeeling.
 The model sorts samples into **Low / Medium / High** groups to prioritise laboratory work.
